@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		D0A6E0D5263DDDC40003DD7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E0D4263DDDC40003DD7A /* AppDelegate.swift */; };
 		D0A6E0D7263DDDC40003DD7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E0D6263DDDC40003DD7A /* SceneDelegate.swift */; };
-		D0A6E0D9263DDDC40003DD7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E0D8263DDDC40003DD7A /* ViewController.swift */; };
-		D0A6E0DC263DDDC40003DD7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A6E0DA263DDDC40003DD7A /* Main.storyboard */; };
 		D0A6E0DE263DDDC40003DD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A6E0DD263DDDC40003DD7A /* Assets.xcassets */; };
 		D0A6E0E1263DDDC40003DD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A6E0DF263DDDC40003DD7A /* LaunchScreen.storyboard */; };
 		D0A6E0EC263DDDC50003DD7A /* BTGTestRedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E0EB263DDDC50003DD7A /* BTGTestRedoTests.swift */; };
 		D0A6E0F7263DDDC50003DD7A /* BTGTestRedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E0F6263DDDC50003DD7A /* BTGTestRedoUITests.swift */; };
+		D0A6E10C263DDF080003DD7A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E10B263DDF080003DD7A /* Coordinator.swift */; };
+		D0A6E111263DDF8C0003DD7A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E110263DDF8C0003DD7A /* AppCoordinator.swift */; };
+		D0A6E11A263DE1070003DD7A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E119263DE1070003DD7A /* HomeViewController.swift */; };
+		D0A6E126263DE1440003DD7A /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E125263DE1440003DD7A /* HomeCoordinator.swift */; };
+		D0A6E134263DE5F90003DD7A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6E133263DE5F90003DD7A /* HomeViewModel.swift */; };
+		D0BBC58926408CBF007D1C01 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BBC58826408CBF007D1C01 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,6 @@
 		D0A6E0D1263DDDC40003DD7A /* BTGTestRedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTGTestRedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A6E0D4263DDDC40003DD7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0A6E0D6263DDDC40003DD7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0A6E0D8263DDDC40003DD7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0A6E0DB263DDDC40003DD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0A6E0DD263DDDC40003DD7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0A6E0E0263DDDC40003DD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0A6E0E2263DDDC40003DD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		D0A6E0F2263DDDC50003DD7A /* BTGTestRedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTGTestRedoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A6E0F6263DDDC50003DD7A /* BTGTestRedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTGTestRedoUITests.swift; sourceTree = "<group>"; };
 		D0A6E0F8263DDDC50003DD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A6E10B263DDF080003DD7A /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D0A6E110263DDF8C0003DD7A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D0A6E119263DE1070003DD7A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D0A6E125263DE1440003DD7A /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		D0A6E133263DE5F90003DD7A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D0BBC58826408CBF007D1C01 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,9 @@
 		D0A6E0D3263DDDC40003DD7A /* BTGTestRedo */ = {
 			isa = PBXGroup;
 			children = (
-				D0A6E0D4263DDDC40003DD7A /* AppDelegate.swift */,
-				D0A6E0D6263DDDC40003DD7A /* SceneDelegate.swift */,
-				D0A6E0D8263DDDC40003DD7A /* ViewController.swift */,
-				D0A6E0DA263DDDC40003DD7A /* Main.storyboard */,
-				D0A6E0DD263DDDC40003DD7A /* Assets.xcassets */,
-				D0A6E0DF263DDDC40003DD7A /* LaunchScreen.storyboard */,
-				D0A6E0E2263DDDC40003DD7A /* Info.plist */,
+				D0A6E107263DDEDA0003DD7A /* App */,
+				D0A6E121263DE1350003DD7A /* Home */,
+				D0A6E149263E05270003DD7A /* Supporting Files */,
 			);
 			path = BTGTestRedo;
 			sourceTree = "<group>";
@@ -126,6 +130,78 @@
 				D0A6E0F8263DDDC50003DD7A /* Info.plist */,
 			);
 			path = BTGTestRedoUITests;
+			sourceTree = "<group>";
+		};
+		D0A6E107263DDEDA0003DD7A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D0A6E0D4263DDDC40003DD7A /* AppDelegate.swift */,
+				D0A6E0D6263DDDC40003DD7A /* SceneDelegate.swift */,
+				D0A6E110263DDF8C0003DD7A /* AppCoordinator.swift */,
+				D0A6E115263DE0EF0003DD7A /* Base */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D0A6E115263DE0EF0003DD7A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D0A6E10B263DDF080003DD7A /* Coordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D0A6E121263DE1350003DD7A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D0BBC58D264091D4007D1C01 /* Model */,
+				D0A6E12A263DE5A60003DD7A /* View */,
+				D0A6E132263DE5D80003DD7A /* ViewModel */,
+				D0A6E12E263DE5CD0003DD7A /* Coordinator */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D0A6E12A263DE5A60003DD7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0A6E119263DE1070003DD7A /* HomeViewController.swift */,
+				D0BBC58826408CBF007D1C01 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0A6E12E263DE5CD0003DD7A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D0A6E125263DE1440003DD7A /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D0A6E132263DE5D80003DD7A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0A6E133263DE5F90003DD7A /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0A6E149263E05270003DD7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0A6E0DD263DDDC40003DD7A /* Assets.xcassets */,
+				D0A6E0DF263DDDC40003DD7A /* LaunchScreen.storyboard */,
+				D0A6E0E2263DDDC40003DD7A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0BBC58D264091D4007D1C01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +309,7 @@
 			files = (
 				D0A6E0E1263DDDC40003DD7A /* LaunchScreen.storyboard in Resources */,
 				D0A6E0DE263DDDC40003DD7A /* Assets.xcassets in Resources */,
-				D0A6E0DC263DDDC40003DD7A /* Main.storyboard in Resources */,
+				D0BBC58926408CBF007D1C01 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +334,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A6E0D9263DDDC40003DD7A /* ViewController.swift in Sources */,
+				D0A6E10C263DDF080003DD7A /* Coordinator.swift in Sources */,
+				D0A6E111263DDF8C0003DD7A /* AppCoordinator.swift in Sources */,
+				D0A6E134263DE5F90003DD7A /* HomeViewModel.swift in Sources */,
 				D0A6E0D5263DDDC40003DD7A /* AppDelegate.swift in Sources */,
 				D0A6E0D7263DDDC40003DD7A /* SceneDelegate.swift in Sources */,
+				D0A6E126263DE1440003DD7A /* HomeCoordinator.swift in Sources */,
+				D0A6E11A263DE1070003DD7A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +376,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D0A6E0DA263DDDC40003DD7A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0A6E0DB263DDDC40003DD7A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0A6E0DF263DDDC40003DD7A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,7 +510,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FW89XSZW9N;
-				INFOPLIST_FILE = BTGTestRedo/Info.plist;
+				INFOPLIST_FILE = "BTGTestRedo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +529,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FW89XSZW9N;
-				INFOPLIST_FILE = BTGTestRedo/Info.plist;
+				INFOPLIST_FILE = "BTGTestRedo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
